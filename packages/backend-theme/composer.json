@@ -1,0 +1,13 @@
+{
+    "name": "walker/backend-theme",
+    "description": "WP Backend Theme",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walker",
+            "email": "walker@praiseweb.com.br"
+        }
+    ],
+    "require": {}
+}

@@ -13,6 +13,10 @@
     {
       "type":"composer",
       "url":"https://wpackagist.org"
+    },
+    {
+      "type": "path",
+      "url": "packages/backend-theme"
     }
   ],
   "minimum-stability": "dev",
@@ -23,8 +27,9 @@
   "require": {
     "composer/installers": "^1.2",
     "drupal-composer/preserve-paths": "0.1.*",
+    "johnpbloch/wordpress-core": "~5.0",
     "johnpbloch/wordpress-core-installer": "^1.0",
-    "johnpbloch/wordpress-core": "~5.0"
+    "walker/backend-theme": "dev-master"
   },
   "extra": {
     "installer-paths": {

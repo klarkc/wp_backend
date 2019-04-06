@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba87f8c62aa4a72164e96203f8adf96c",
+    "content-hash": "c773f9484cc97dc550a04d9345ddeb66",
     "packages": [
         {
             "name": "composer/installers",
@@ -268,12 +268,34 @@
                 "wordpress"
             ],
             "time": "2018-11-09T20:10:38+00:00"
+        },
+        {
+            "name": "walker/backend-theme",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/backend-theme",
+                "reference": "fe3e9cc80db35873f33c9f1c459b3305be0f23f8"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Walker",
+                    "email": "walker@praiseweb.com.br"
+                }
+            ],
+            "description": "WP Backend Theme"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "walker/backend-theme": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
