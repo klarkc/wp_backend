@@ -12,6 +12,18 @@ This project consist of:
 
 Current WordPress core: `~5.0`
 
+### Instructions
+
+```bash
+composer install
+./wp-cli.phar --path=web/ config create --dbname=wordpress --dbuser=wordpress --dbpass=wordpress
+./wp-cli.phar --path=web/ db import wordpress-2019-04-06-0ea2479.sql
+./wp-cli.phar --path=web/ server
+```
+
+Wordpress user: wpfloripa
+Wordpress password: wpfloripa2019
+
 ### Paths
 
 By default, wordpress core will be installed in `./web` directory. Plugins and themes will be installed in `./web/wp-content/plugins` and `./web/wp-content/themes`. Point your Apache vhost or similar to this project's `./web` directory.
