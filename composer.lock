@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c773f9484cc97dc550a04d9345ddeb66",
+    "content-hash": "6894d4d5d257a470e0570e7ca98551f2",
     "packages": [
         {
             "name": "composer/installers",
@@ -288,13 +288,30 @@
                 }
             ],
             "description": "WP Backend Theme"
+        },
+        {
+            "name": "walker/shop-store",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/shop-store",
+                "reference": "b8a5e25b41e50c523bd1b250adbac5b311f221ec"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Walker",
+                    "email": "walker@praiseweb.com.br"
+                }
+            ]
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "walker/backend-theme": 20
+        "walker/backend-theme": 20,
+        "walker/shop-store": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

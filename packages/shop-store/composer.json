@@ -1,0 +1,11 @@
+{
+    "name": "walker/shop-store",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Walker",
+            "email": "walker@praiseweb.com.br"
+        }
+    ],
+    "require": {}
+}
