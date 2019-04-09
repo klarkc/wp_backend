@@ -1,6 +1,6 @@
-# Composer Template for WordPress Projects
+# WordPress Backend Template
 
-This project template should provide a kickstart for managing your site dependencies with [Composer](https://getcomposer.org/).
+This project template should provide a kickstart for managing your site dependencies with [Composer](https://getcomposer.org/). [Thanks Wodby](https://github.com/wodby/wordpress-composer).
 
 This project consist of:
 
